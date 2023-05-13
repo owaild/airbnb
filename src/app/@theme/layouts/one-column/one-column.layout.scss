@@ -1,0 +1,147 @@
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #717171;
+  margin: 0 20px;
+  padding: 0 !important;
+}
+
+.active {
+  .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(17, 17, 17);
+    position: relative;
+    &::after {
+      content: "";
+      border-bottom: 3px solid rgb(255, 56, 92);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      box-sizing: border-box;
+      left: 0px;
+      bottom: -28px;
+      border-radius: inherit;
+      pointer-events: none;
+    }
+  }
+}
+
+.nav-link {
+  border: unset;
+  border-radius: unset;
+  border-bottom: none !important;
+}
+.border-header {
+  border: 1px solid #eaecf0 !important;
+}
+
+.nav-link {
+  padding: 0;
+}
+.p6 {
+  padding: 6px !important;
+}
+.sidebar {
+  width: 88px;
+  z-index: 999;
+  .box-slider {
+    height: 48px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  li {
+    transition: 5s;
+    margin: 2px 0;
+  }
+
+  .title-slider {
+    transition: 0.1s;
+    color: #000;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: inline-block;
+  }
+  svg {
+    // width: 24px;
+  }
+  transition: 0.3s;
+  // position: absolute;
+}
+.sidebar:hover {
+  // position: fixed !important;
+  width: 240px;
+  .box-slider {
+    justify-content: flex-start;
+  }
+  .title-slider {
+    color: #000;
+    width: 140px;
+    height: auto;
+    margin: 0;
+    text-align: left;
+  }
+  li:hover {
+    background: linear-gradient(
+      270deg,
+      rgba(243, 243, 242, 1) 51%,
+      rgba(243, 243, 242, 0) 100%
+    );
+    transition: 5s;
+  }
+  svg {
+    margin: 0 8px 0 0;
+  }
+}
+.border-right-active {
+  border-right: 3px solid rgb(212, 59, 81);
+}
+
+.active-link {
+  .title-slider {
+    color: #7670ed !important;
+  }
+}
+
+.ellipsis-title {
+  width: 150px;
+  text-overflow: ellipsis;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.position-fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+.sidebar {
+  // position: fixed;
+  z-index: 9;
+  top: 70px !important;
+}
+
+.nav-pills {
+  li {
+    height: 48px;
+  }
+}
+
+.navbar-inverse {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  z-index: 99;
+}

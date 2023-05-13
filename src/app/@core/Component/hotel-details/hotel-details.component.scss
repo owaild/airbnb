@@ -1,0 +1,140 @@
+.manu-img {
+  width: 100%;
+  border-radius: 25px;
+  height: 480px;
+  overflow: hidden;
+}
+
+.sub-img {
+  width: 100%;
+  border-radius: 25px;
+  height: 230px;
+}
+
+.btn-heart {
+  background-color: #f5f5f4;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  // position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // right: 10px;
+  // top: 10px;
+  font-size: 16px;
+}
+
+.btn-heart:hover {
+  background-color: #000;
+  color: #fff;
+}
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  color: rgb(17, 17, 17);
+}
+
+.sub-title {
+  font-size: 16px;
+  font-weight: 400;
+  // line-height: 40px;
+  color: rgb(113, 113, 113);
+}
+.title2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.title3 {
+  font-size: 16px;
+  font-weight: 500;
+  // line-height: 24px;
+}
+
+.box_rev {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  padding: 15px 20px;
+}
+.progress {
+  height: 8px;
+}
+
+.fix-width {
+  margin: 15px 0;
+  .width {
+    min-width: 100px;
+  }
+}
+.box-commit {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  img {
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    margin: 0 10px;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+.title_name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.data {
+  font-size: 12px;
+  color: rgba(113, 113, 113, 1);
+}
+
+.box-gray {
+  background-color: rgb(245, 245, 244);
+  border-radius: 25px;
+  padding: 15px;
+  width: 100%;
+}
+
+.price_title {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(17, 17, 17);
+  span {
+    font-size: 14px;
+  }
+}
+
+.fixed-inverse {
+  position: fixed;
+  width: 30% !important;
+  top: 0;
+  background-color: #fff;
+  z-index: 99;
+}
+.scroll-box {
+  padding-top: 20px;
+}
+.small-sz {
+  font-size: 12px;
+}
+.font-weight-bold {
+  font-weight: 500;
+}
+.box-bor {
+  width: fit-content;
+  padding: 8px 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.Total-title {
+  font-size: 16px;
+  font-weight: 600;
+}

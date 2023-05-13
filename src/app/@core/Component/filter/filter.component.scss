@@ -1,0 +1,53 @@
+.link-danger {
+  text-decoration: none !important;
+  color: rgb(211, 59, 80);
+  font-size: 12px;
+}
+
+.sub_title {
+  color: rgba(128, 128, 128, 0.7);
+}
+label {
+  font-size: 12px;
+  line-height: 20px;
+  text-color: rgb(113, 113, 113);
+}
+.f-16 {
+  font-size: 16px;
+}
+.servay-container {
+  span {
+    width: 19%;
+    margin: 0 4px;
+    border: 1px solid rgb(17, 17, 17);
+    border-radius: 50px;
+    height: 36px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  span.active {
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+  }
+}
+
+.btn-danger-ana {
+  width: 100%;
+  color: #fff;
+  opacity: 0.4;
+  height: 42px;
+  border-radius: 10px;
+}
+
+.pos-fixed-btn {
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  padding: 15px 12px !important;
+  width: 95%;
+  height: 90px;
+  background-color: #fff;
+}

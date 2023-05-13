@@ -1,0 +1,51 @@
+.card-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.card-text {
+  color: #717171;
+  font-size: 14px;
+}
+.price-font {
+  color: rgb(17, 17, 17);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  span {
+    font-size: 12px;
+    color: #717171;
+  }
+}
+.card {
+  border-radius: 22px !important;
+  overflow: hidden;
+  min-height: 370px;
+  img {
+    height: 200px;
+  }
+}
+.btn-heart {
+  background-color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 10px;
+  top: 10px;
+  font-size: 16px;
+}
+
+.btn-heart:hover {
+  background-color: #000;
+  color: #fff;
+}
+.pos-bottom {
+  width: 90%;
+  position: absolute;
+  bottom: 1px;
+  left: 5%;
+}

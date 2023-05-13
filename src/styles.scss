@@ -1,1 +1,96 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.btn-gray {
+  background-color: rgb(243, 243, 242);
+  height: 48px;
+  width: 48px;
+  opacity: 1;
+  border-radius: 8px;
+}
+.bg-gray {
+  background-color: rgb(243, 243, 242);
+  border-radius: 8px;
+}
+
+.border-rigth-radius {
+  border-radius: 8px 0px 0px 8px;
+}
+
+.border-left-radius {
+  border-radius: 0px 8px 8px 0px;
+}
+select {
+  -moz-appearance: auto !important; /* Firefox */
+  -webkit-appearance: auto !important; /* Safari and Chrome */
+  appearance: auto !important;
+}
+
+input,
+select {
+  height: 48px;
+  border-radius: 12px !important;
+  font-size: 14px !important;
+  border: 1px solid rgba(17, 17, 17, 0.2) !important;
+}
+.form-control:disabled {
+  background-color: rgb(243, 243, 242);
+  opacity: 1;
+}
+
+.icon-input {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.icon-p {
+  padding-left: 40px !important;
+}
+.box-input {
+  height: 48px;
+  border-radius: 12px;
+}
+.btn-plus-menus {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  height: 32px;
+  padding: 0px;
+  width: 32px;
+  color: red;
+  margin: 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px !important;
+  transition: 5s;
+}
+
+.border-right {
+  border-right: 1px solid #dee2e6 !important;
+}
+.border-top {
+  border-top: 1px solid #dee2e6 !important;
+}
+.pd-5 {
+  padding-bottom: 5rem;
+}
+.pd-3 {
+  padding-bottom: 3rem;
+}
+.pd-2 {
+  padding-bottom: 2rem;
+}
+.pd-1 {
+  padding-bottom: 1rem;
+}
+.animate__animated.animate__slideInRight {
+  --animate-duration: 0.5s;
+}
