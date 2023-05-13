@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'Hotels',
+    path: '',
     // canActivate: [AuthGuard],
     loadChildren: () =>
       import('./app-modules/hotels/hotels.module').then(
@@ -13,7 +13,7 @@ const routes: Routes = [
 
   {
     path: '',
-    redirectTo: 'Hotels',
+    redirectTo: '',
     pathMatch: 'full',
   }
 ];
